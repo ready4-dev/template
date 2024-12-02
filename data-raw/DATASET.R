@@ -4,7 +4,7 @@ library(ready4fun)
 # MANUAL STEP. Write all your functions to R files in the new "fns" directory.
 x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Do Something Related To Mental Health Economic Modelling",
                                  pkg_desc_1L_chr = "A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/).
-                            If a development version, you may wish to note that the oftware has been made available as part of the process of testing and documenting the library.
+                            If a development version, you may wish to note that the software has been made available as part of the process of testing and documenting the library.
                             You can also direct users with any questions about the library to the maintainer's email address (supply email here).",
                                  authors_prsn = c(utils::person(given = "Author1Given",family = "Author1Family",email = "name@example.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0000-0000-0000")),
                                                   utils::person("CopyrightHolder", role = c("cph") # If no copyright holder is to be specified, leave as is. Otherwise update these details.
