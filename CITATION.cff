@@ -1,10 +1,9 @@
 cff-version: 1.2.0
-message: ". Zenodo.uthor1Given Author1Family <name@example.com> [aut and cre] (<https://orcid.org/0000-0000-0000-0000>)  (2024). : . . https://doi.org/10.5281/zenodo.5606250"
+message: "Author1Given Author1Family (2024). template: Do Something Related to Mental Health Economic Modelling. Version 0.0.0.9002. "
 authors:
-  - family-names: "(<https://orcid.org/0000-0000-0000-0000>)"
-    given-names: "Author1Given Author1Family <name@example.com> [aut, cre]"
-title: ": "
-version: 
-doi: 10.5281/zenodo.5606250
+  - family-names: "Author1Family"
+    given-names: "Author1Given"
+title: "template: Do Something Related to Mental Health Economic Modelling"
+version: 0.0.0.9002
 date-released: 2024-12-02
 url: "https://ready4-dev.github.io/template/"

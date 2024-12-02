@@ -7,11 +7,11 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/). If a development version, you may wish to note that the oftware has been made available as part of the process of testing and documenting the library. You can also direct users with any questions about the library to the maintainer's email address (supply email here).
+A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/). If a development version, you may wish to note that the software has been made available as part of the process of testing and documenting the library. You can also direct users with any questions about the library to the maintainer's email address (supply email here).
 
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/). If a development version, you may wish to note that the oftware has been made available as part of the process of testing and documenting the library. You can also direct users with any questions about the library to the maintainer's email address (supply email here).
+A description of what this model module library does. Mention that it is developed with the ready4 framework (https://ready4-dev.github.io/ready4/). If a development version, you may wish to note that the software has been made available as part of the process of testing and documenting the library. You can also direct users with any questions about the library to the maintainer's email address (supply email here).
 }
 \seealso{
 Useful links:
@@ -32,6 +32,11 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: Author1Given Author1Family \email{name@example.com} (\href{https://orcid.org/0000-0000-0000-0000}{ORCID})
+
+Other contributors:
+\itemize{
+  \item CopyrightHolder [copyright holder]
+}
 
 }
 \keyword{internal}

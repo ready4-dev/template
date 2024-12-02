@@ -51,11 +51,14 @@ write_to_tidy_pkg(z$x_ready4fun_manifest,
 #   stringr::str_replace_all("  - text: Model", "  - text: Framework & Model") %>%
 #   writeLines(con = "_pkgdown.yml")
 write_citation_fl(z$x_ready4fun_manifest)
-ready4::write_citation_cff(z$x_ready4fun_manifest,
-                           citation_chr = readLines("inst/CITATION"))
-# 
 desc_chr <- readLines("DESCRIPTION")
+# ready4::write_citation_cff(z$x_ready4fun_manifest$initial_ls$pkg_desc_ls %>% append(list(Version = desc_chr[desc_chr %>% startsWith("Version")] %>% stringr::str_remove("Version: "))),
+#                            citation_chr = readLines("inst/CITATION"),
+#                            publisher_1L_chr = "")
 index_1L_int <- which(desc_chr=="    person(\"CopyrightHolder\", role = \"cph\")")
-c(desc_chr[1:(index_1L_int-2)], stringr::str_sub(desc_chr[(index_1L_int-1)], end = -2), desc_chr[(index_1L_int+1):length(desc_chr)]) %>%
-  writeLines("DESCRIPTION")
-devtools::document()
+if(!identical(index_1L_int, integer(0))){
+  c(desc_chr[1:(index_1L_int-2)], stringr::str_sub(desc_chr[(index_1L_int-1)], end = -2), desc_chr[(index_1L_int+1):length(desc_chr)]) %>%
+    writeLines("DESCRIPTION")
+  devtools::document()
+}
+

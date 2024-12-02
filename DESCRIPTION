@@ -13,7 +13,7 @@ Description: A description of what this model module library does. Mention
     the process of testing and documenting the library.  You can also
     direct users with any questions about the library to the maintainer's
     email address (supply email here).
-License: GPL-3 + file LICENSE
+License: GPL-3
 URL: https://ready4-dev.github.io/template/,
     https://github.com/ready4-dev/template,
     https://ready4-dev.github.io/ready4/
@@ -23,6 +23,7 @@ RoxygenNote: 7.3.2
 Suggests: 
     knitr,
     knitrBootstrap,
+    pkgload,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
