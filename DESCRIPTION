@@ -1,6 +1,6 @@
-Package: serious
+Package: template
 Title: Do Something Related to Mental Health Economic Modelling
-Version: 0.0.0.9006
+Version: 0.0.0.9002
 Authors@R: c(
     person("Author1Given", "Author1Family", , "name@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0000-0000-0000")),
